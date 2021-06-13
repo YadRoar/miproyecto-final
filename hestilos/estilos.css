@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Estilos pagina principal*/
+body{
+    background-color: rgb(241, 143, 143);
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    background: rgb(71, 19, 19);
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu a{
+    color: rgb(13, 14, 14);
+    font-size: 16px;
+    font-family: cursive;
+    text-decoration: none;
+}
+li{
+    float: left;
+    padding: 15px;
+}
+.menu{
+    background-color: rgb(136, 136, 128);
+    width: 1100px;
+    height: 45px;
+}
+.menu li a:hover{
+    background-color: lightsalmon;
+}
+.active{
+    background-color: rgb(177, 76, 76);
+}
+h1{
+    color: #f5ecec;
+    display: inline-block;
+    margin-left: 20px;
+    font-family:cursive;
+    padding: 30px; 
+}
+.aprendido{ 
+    color: #c3cfd6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    padding: 10px;
+}  
+div#left{
+   background-color: rgba(238, 234, 237, 0.932);
+   width: 260px;
+   border: 10px solid rgb(71, 19, 19);
+   padding: 85px ;
+   display: inline-block;
+   color: #000;
+   margin: 60px 60px;
+}
+ul{
+    list-style: none;
+}
+div#right{
+    background-color: rgb(238, 234, 237, 0.932);
+    width: 325px;
+    border: 10px solid rgb(71, 19, 19);
+    padding: 100px 65px;
+    display: inline-block;
+    color: #000;
+    margin: 60px 100px;
+}
+div#left:hover{
+    background-color: rgb(211, 218, 117);
+}
+div#right:hover{
+    background-color: rgb(211, 218, 117);
+}
+footer { 
+    background-color: #6b6b67;
+    max-width: 1280px;
+    height: 40px;
+}
+.redes{
+    display: inline-block;
+}
+ /* Fin de Inicio*/
+/*Estilos para Bio*/
+#perfil{
+  float: left;
+  margin: 10px;
+}
+body{
+  background-color: #000;
+}
+div{
+  color: #e0e0e0;
+}
+p{
+font-family: cursive;  
+}
+#toggleBloque{
+    max-width: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 130px;
+    height: 25px;
+}
+#toggleBloque:hover{
+    background-color: crimson;
+}
+/*Fin de Bio*/
+/*Estilos Gale*/
+#hobbies-btn, #mascotas-btn, #paseos-btn{
+   max-width: 100px;
+   border-radius: 20px;
+   width: 140px;
+   height: 30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#hobbies-btn:hover, #mascotas-btn:hover, #paseos-btn:hover{
+    background-color: crimson;
+}
+#gallery{
+    margin: 20px 0;
+}
+#mascotas, #paseos{
+    display: none;
+}   
+.ima{
+    display: inline-block;
+    margin: 10px 2px;
+}
+.ima img{
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    box-shadow: 0 4px 5px -1px, 0 6px 10px 0 rgb(0 0 0/14%), 0 1px 18px 0 rgb(0 0 0/12%);
+    border-radius: 15px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);   
+}
+.ima img:hover{
+    transform: scale(1.1) rotate(15deg);  
+}
+/*Fin de galeria*/

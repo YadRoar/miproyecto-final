@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="hestilos/estilos.css"/>
+    <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <img id="log" src="Imagenes/log.PNG" alt="logowatt" width="300px" style="border-radius: 10px;" /> 
+    <h1>Introduccion al Desarrollo Web</h1>
+    <nav class="menu">
+      <ul>
+        <li><i class="fas fa-home"></i><a href="index.html" class="active">Inicio</a></li>
+        <li><i class="fas fa-tasks"></i><a href="biografia.html">Biografia</a></li>
+        <li><i class="fas fa-th-large"></i><a href="galeria.html">Galeria</a></li>
+      </ul>
+   </nav>
+ </header>
+ <main>
+   <section>
+     <h2>Galeria</h2>
+      <nav id="submenu">
+        <button id="hobbies-btn" onclick="showCategory('hobbies')">Hobbies</button>
+        <button id="mascotas-btn" onclick="showCategory('mascotas')">Mascotas</button>  
+        <button id="paseos-btn" onclick="showCategory('paseos')">Paseos</button>
+      </nav>
+      <div id="gallery">
+        <div class="category" id="hobbies">
+         <div class="ima"><img src="Imagenes/hobbies/todo1.PNG" alt="todo1"></div>
+         <div class="ima"><img src="Imagenes/hobbies/todo2.PNG" alt="todo2"></div>
+         <div class="ima"><img src="Imagenes/hobbies/todo3.PNG" alt="todo3"></div>
+         <div class="ima"><img src="Imagenes/hobbies/todo4.PNG" alt="todo4"></div>
+       </div>
+       <div class="category" id="mascotas">
+         <div class="ima"><img src="Imagenes/mascotas/mas1.PNG" alt="mas1"></div>
+         <div class="ima"><img src="Imagenes/mascotas/mas2.PNG" alt="mas2"></div>
+         <div class="ima"><img src="Imagenes/mascotas/mas3.PNG" alt="mas3"></div>
+         <div class="ima"><img  src="Imagenes/mascotas/mas4.PNG" alt="mas4"></div>
+       </div>
+       <div class="category" id="paseos">
+         <div class="ima"><img src="Imagenes/paseos/hobb1.PNG" alt="hobb1"></div>
+         <div class="ima"><img src="Imagenes/paseos/hobb2.PNG" alt="hobb2"></div>
+         <div class="ima"><img src="Imagenes/paseos/hobb3.PNG" alt="hobb3"></div>
+         <div class="ima"><img src="Imagenes/paseos/hobb4.PNG" alt="hobb4"></div>
+        </div>
+     </div>
+   </section>
+ </main>
+ <footer>
+    &#169; 2021 Hecho por Yadith Rodriguez   |
+    <nav class="redes">
+      <a href="https://www.facebook.com/shirlenyrodriguez/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/yad.roar/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/yadith-rodriguez-a-a046b41b8/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+   </nav>
+  </footer>
+ <script src="scripts/pro.js"></script>
+</body>
+</html>
